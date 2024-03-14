@@ -12,7 +12,7 @@ import java.lang.annotation.Target;
  * 2024/3/3 23:03
  */
 @Retention(RetentionPolicy.RUNTIME)
-@Target({ElementType.TYPE})
+@Target({ElementType.TYPE, ElementType.METHOD})
 public @interface MyAnnotation {
 
     String value();
